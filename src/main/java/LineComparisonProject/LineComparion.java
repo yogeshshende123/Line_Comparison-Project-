@@ -34,5 +34,12 @@ public class LineComparion {
             System.out.println("lenght of line1 and line2 are equal");
         else
             System.out.println("lenght of line1 and line2 are not equal");
+        //UC3_Compare lenght of two line.
+        if ( line1 == line2 )
+            System.out.println("lenght of two line are equal");
+        else if ( line1 < line2)
+            System.out.println("lenght of line1 is less than line2");
+        else
+            System.out.println("lenght of line1 is greater than line2");
     }
 }
