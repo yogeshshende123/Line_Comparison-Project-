@@ -17,6 +17,22 @@ public class LineComparion {
         // UC1_calculate the lenght of line (x,y) in coordinate cartesian system.
         double line1 = ((x2-x1)^2+(y2-y1)^2);
         System.out.println("Lenght of line1 is :" +Math.sqrt(line1));
-
+        //UC2_calculate lenght of line2 and check line1 and line2 are equal or not.
+        System.out.println("Enter the point x3 :");
+            int x3 = sc.nextInt();
+        System.out.println("Enter the point x4 :");
+            int x4 = sc.nextInt();
+        System.out.println("Enter the point y3 :");
+            int y3 = sc.nextInt();
+        System.out.println("Enter the point y4 :");
+            int y4 = sc.nextInt();
+        //calculate lenght of line2.
+        double line2 = ((x4-x3)^2+(y4-y3)^2);
+        System.out.println("lenght of line2 is :" +Math.sqrt(line2));
+        //check lenght of two line are equal or not.
+        if ( line1 == line2 )
+            System.out.println("lenght of line1 and line2 are equal");
+        else
+            System.out.println("lenght of line1 and line2 are not equal");
     }
 }
